@@ -1,0 +1,84 @@
+This project is used to host the framework and testcases for RISC-V Server.
+
+We have 2 major part:
+	The ISA part
+	The Non-ISA part
+
+
+The ISA part may include:
+	1. RVA23U64
+		https://github.com/riscv/riscv-profiles/releases		
+
+	2. RV223S64
+		https://github.com/riscv/riscv-profiles/releases
+
+
+The Non-ISA part may include
+	1. UEFI
+		https://github.com/riscv-non-isa/riscv-uefi/tree/main
+
+	2. Server Platform
+		https://github.com/riscv-non-isa/riscv-server-platform
+
+	3. IOMMU
+		https://github.com/riscv-non-isa/riscv-iommu
+		https://github.com/riscv-non-isa/riscv-iommu-invalidation
+
+	4. SBI
+		https://github.com/riscv-non-isa/riscv-sbi-doc
+
+	5. RPMI
+		https://github.com/riscv-non-isa/riscv-rpmi
+
+	6. Boot and Runtime Services (BRS)
+		https://github.com/riscv-non-isa/riscv-brs
+
+	7. Platform Security Model
+		https://github.com/riscv-non-isa/riscv-security-model
+		https://github.com/riscv-non-isa/riscv-external-debug-security
+
+	8. ACPI
+		https://github.com/riscv-non-isa/riscv-acpi
+		https://github.com/riscv-non-isa/riscv-acpi-ffh
+		https://github.com/riscv-non-isa/riscv-acpi-rimt
+
+	9. Software Interrupt
+		https://github.com/riscv-non-isa/riscv-swi
+
+	10. AP-TEE
+		https://github.com/riscv-non-isa/riscv-ap-tee
+
+	11. RAS
+		https://github.com/riscv-non-isa/riscv-ras-eri
+		https://github.com/riscv-non-isa/riscv-rqsc
+		https://github.com/riscv-non-isa/riscv-cbqri
+
+
+TODO:
+	Find testsuite for the above stanadards.
+	And try to run them with Qemu system.
+	Please submit PR if you find any useful ones.
+	Make a directory for every single standarnd:
+		The ananlizing of the testcases/framework
+		The testresult of the testcases/framework
+
+Maybe useful resource:
+	https://github.com/OpenXiangShan/gos
+
+	https://github.com/OpenXiangShan/YunSuan
+
+	https://github.com/OpenXiangShan/riscv-tests
+
+	https://github.com/riscv-software-src/riscv-tests
+
+	https://github.com/OpenXiangShan/tl-test-new
+
+	https://github.com/OpenXiangShan/tl-test
+
+	https://github.com/riscv-non-isa/riscv-arch-test
+
+	https://github.com/intel/rv-brs-test-suite/tree/main
+
+	https://github.com/fwts/fwts
+
+
