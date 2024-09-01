@@ -1,0 +1,15 @@
+Howto
+
+1. Backport DMI patch to Linux 6.6
+	https://github.com/torvalds/linux/commit/d6ecd188937fcddeffb37efc61b67a56809b266a
+	Enable these kernel config
+		CONFIG_CGROUP_FREEZER=y
+		CONFIG_DMI_SYSFS=y
+		CONFIG_EFI_TEST=m
+
+2. Start Qemu with
+	http://repo.openeuler.org/openEuler-24.03-LTS/virtual_machine_img/riscv64/
+	./start_vm.sh
+
+3. Build and RUN FirmwareTestSuite
+	https://github.com/fwts/fwts
